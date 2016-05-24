@@ -1,0 +1,22 @@
+{
+  "name": "Clonie Clicker",
+  "description": "Clonie Clicker: a Cookie Clicker klón",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Koszta Barnabás",
+    "url": "http://www.nyan.cat/"
+  },
+  "default_locale": "hu",
+  "chrome": { "navigation": true },
+
+  "type" : "privileged",
+
+  "permissions": {
+    "device-storage:pictures": {"access":"readonly"},
+    "device-storage:sdcard": {"access":"readwrite"}
+  }
+}
